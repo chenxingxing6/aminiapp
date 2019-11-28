@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "获取手机验证码",
+  "usingComponents": {
+    "mobile-code": "/components/mobileCode/index"
+  }
+}

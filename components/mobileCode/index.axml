@@ -1,0 +1,30 @@
+<view class="atd-verify-wrapper {{className}}">
+  <view class="atd-title-wrapper">
+    <text>{{txt}}发送验证码到以下手机        
+    </text>
+  </view>
+  <view class="atd-tel-wrapper">
+    <label for="mobile" class="atd-input-con">
+      <view class="atd-title-field">手机号        
+      </view>
+      <el-input name="mobile" placeholder="请输入正确的手机号" type="number" maxlength="{{11}}" disabled="{{mobileDisabled}}" onInput="onMobileInput"  clear="{{true}}" value="{{hasSend ? mobileSafe : mobileValue}}" onClear="onMobileClear"	/>
+    </label>
+    <view class="send-code-wrapper">
+      <label for="verifyCode" class="atd-input-con">
+        <view class="atd-title-field">验证码                        
+        </view>
+        <el-input name="verifyCode" maxlength="{{verifyCodeLength}}" placeholder="请输入验证码" type="{{numberCode ? 'number': 'text'}}" onInput="onCodeInput"  value="{{verifyCode}}" />
+      </label>
+      <popover position="{{position}}" show="{{popoverShow}}" showMask="{{false}}">
+        <view onTap="onSendCode" class="msg {{canSend ? 'active':''}}">{{btnName}}                       
+        </view>
+        <view slot="items">
+          <popover-item className="popover">
+            <text>请输入正确的手机号                        
+            </text>
+          </popover-item>
+        </view>
+      </popover>
+    </view>
+  </view>
+</view> 

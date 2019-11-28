@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "ayarn-install": "ayarn install"
+  },
+  "dependencies": {
+    "mini-antui": "^0.4.25"
+  }
+}

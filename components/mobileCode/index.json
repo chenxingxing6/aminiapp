@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "popover": "mini-antui/es/popover/index",
+    "popover-item": "mini-antui/es/popover/popover-item/index",
+    "el-input": "mini-antui/es/input-item/index"
+  }
+}

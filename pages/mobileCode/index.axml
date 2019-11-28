@@ -1,0 +1,13 @@
+<view class="atd-mobile-code">
+  <mobile-code 
+    onSendCode="onSendCode"
+    onCodeInput="onCodeInput"
+    disabled="{{disabled}}"
+    mobile="{{mobile}}"
+    />
+
+    <button disabled="{{(code && mobile) ? false : true}}" type="primary" onTap="defaultTap">提交</button>
+</view>
+<view class="mytest">
+  这是一个支付宝小程序demo
+</view>

@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/mobileCode/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}
