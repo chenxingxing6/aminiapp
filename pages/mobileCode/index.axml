@@ -11,3 +11,7 @@
 <view class="mytest">
   这是一个支付宝小程序demo
 </view>
+
+<view>  
+  <button onTap="getAuthCode"> 授权 </button>
+</view>

@@ -34,5 +34,16 @@ Page({
       title: '温馨提示',
       content: '点击提交 -> 手机号:' + this.data.mobile + ' -> ' + '验证码:' + this.data.code
     });
+  },
+  getAuthCode() {
+    my.getAuthCode({
+      scopes: 'auth_user', // 主动授权（弹框）：auth_user，静默授权（不弹框）：auth_base
+      success: (res) => {
+        if(res.authCode){
+          console.log(res.authCode);
+          alert(res.authCode)
+        }
+      }
+    });
   }
 });
