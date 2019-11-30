@@ -16,6 +16,8 @@ https://www.eolinker.com/#/home/ams/project/?spaceKey=Jg8bGQufac817448ed5572ce2a
 ![](./doc/8.png)
 ---
 
+## 效果图
+
 ![](./doc/2.png)
 
 进入主界面之后，IDE 会通过弹窗提示 扫码登录 以及 关联小程序。
@@ -42,7 +44,7 @@ https://www.eolinker.com/#/home/ams/project/?spaceKey=Jg8bGQufac817448ed5572ce2a
 ![](./doc/14.png)
 
 ---
-## 二、接口
+## 三、接口
 1.获取验证码
 https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=sms/getsms
 ```json
@@ -51,6 +53,7 @@ https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=
 }
 ```
 
+---
 
 2.验证码登陆
 https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=vendingRegister
@@ -67,6 +70,7 @@ https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=
 }
 ```
 
+---
 
 3.订单列表
 https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=indentOrderList
@@ -113,6 +117,7 @@ https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=
     ]
 }
 ```
+---
 
 4.订单详情
 https://result.eolinker.com/cVtaWmta00f18e77f692b959607fad97d41a69fbb9ef529?uri=orderDetail
