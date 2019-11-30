@@ -1,0 +1,18 @@
+
+<view class="container">
+<image  class="backgroundImage" src='{{backgroundImage}}'/>
+<view  class='back_view' >    
+    <image src={{isMember?'../../image/member.png':''}} class='icon_image' mode='aspectFit'></image>
+    
+    <view class="text-view">
+     <label class='welcom_label'>{{userInfo?((isMember?'欢迎尊贵的路上会员“':'欢迎“')+ ((userInfo.nickname)?userInfo.nickname:userInfo.mobile) +'”'):'欢迎来到“路上会员柜”'}}</label>
+    <label class='welcom_label2'>{{dateStr}}</label>
+    </view>
+    <view hidden={{isHidden}} a:if="{{(isRequestSuccess&&isPermission)||(!qrCode)||(!userInfo)}}" style="opacity:0.80" class="buhuo" onTap="opendoor" data-type="1">{{qrCode?(isPermission==1?'开门,先拿后付费':'开门'):'扫一扫'}}</view>
+  
+    <image src="../../image/my.png" class='my_image' onTap='myClick'>1111</image>
+    <image src="../../image/my.png" class='my_image' onTap='myClick'></image>
+    <image src="../../image/orderList.png" class='orderList_image' onTap='orderListClick'></image>
+    <label class='my_label'>我</label>
+    <label class='orderList_label'>订单</label>
+  </view>

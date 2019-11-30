@@ -1,9 +1,0 @@
-.atd-mobile-code button{
-  margin: 0 32rpx;
-}
-
-.mytest{
-  margin-top: 100rpx;
-  color: red;
-  text-align: center;
-}
